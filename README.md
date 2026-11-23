@@ -24,6 +24,23 @@ The project combines modern layouts, interactive elements, and motion effects to
 - **Mobile Navigation** — Responsive navigation with an interactive menu.
 - **Accessibility Considerations** — Semantic HTML, descriptive labels, and reduced-motion support for selected animations.
 
+
+## Lighthouse Performance
+
+The NOMA Digital website was audited using Google Lighthouse in mobile mode.
+
+| Category | Score |
+|----------|-------|
+| Performance | 99/100 |
+| Accessibility | 100/100 |
+| Best Practices | 96/100 |
+| SEO | 100/100 |
+
+Performance improved from 94 to 99 after optimizing Google Fonts loading.
+
+The project combines interactive animations, responsive design, and optimized loading performance without relying on external animation libraries.
+
+
 ## Technologies
 
 - HTML5 — Semantic structure and content.
