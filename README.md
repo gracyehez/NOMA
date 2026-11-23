@@ -6,6 +6,10 @@ NOMA is a creative front-end project exploring the intersection of technology, d
 
 The project combines modern layouts, interactive elements, and motion effects to create an engaging browsing experience.
 
+## Preview
+
+![NOMA Digital — Homepage](assets/noma-preview.png)
+
 ## Live Demo
 
 [Explore NOMA Digital](https://gracyehez.github.io/NOMA/)
