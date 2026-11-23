@@ -1,80 +1,162 @@
-# NOMA — Digital Experiences
+# NOMA Digital — Beyond the Ordinary
 
-**A futuristic, interactive web experience built with HTML, CSS, and JavaScript.**
+**A futuristic, interactive front-end experience built with HTML, CSS, and JavaScript.**
 
-NOMA is a creative front-end project exploring the intersection of technology, design, and digital culture.
+NOMA Digital is a creative web development project focused on visual identity, modern CSS techniques, responsive layouts, and interactive user experiences.
 
-The project combines modern layouts, interactive elements, and motion effects to create an engaging browsing experience.
+The project explores how typography, geometric compositions, motion, and subtle interactions can transform a static website into an engaging digital experience.
 
-## Preview
+### Live Website
+
+**[Explore NOMA Digital](https://gracyehez.github.io/NOMA/)**
+
+### Preview
 
 ![NOMA Digital — Homepage](assets/noma-preview.png)
 
-## Live Demo
+## Lighthouse Performance
 
-[Explore NOMA Digital](https://gracyehez.github.io/NOMA/)
+The published website was tested using Google Chrome Lighthouse.
+
+| Category | Score |
+|---|---:|
+| Performance | **98 / 100** |
+| Accessibility | **100 / 100** |
+| Best Practices | **100 / 100** |
+| SEO | **100 / 100** |
+
+These results reflect the latest reported audit. Lighthouse scores may vary depending on device, network conditions, and testing environment.
 
 ## Features
 
-- **Interactive 3D Cards** — Cards respond to mouse movement with perspective and tilt effects.
-- **Scroll Animations** — Content appears progressively as users navigate through the page.
-- **Animated Geometric Shapes** — CSS-based visual elements bring movement to the interface.
-- **Interactive Lighting** — A dynamic glow effect follows the cursor in the manifesto section.
-- **Responsive Design** — Layouts adapt to desktop, tablet, and mobile screens.
-- **Mobile Navigation** — Responsive navigation with an interactive menu.
-- **Accessibility Considerations** — Semantic HTML, descriptive labels, and reduced-motion support for selected animations.
-
-
-## Lighthouse Performance
-
-The NOMA Digital website was audited using Google Lighthouse in mobile mode.
-
-| Category | Score |
-|----------|-------|
-| Performance | 99/100 |
-| Accessibility | 100/100 |
-| Best Practices | 96/100 |
-| SEO | 100/100 |
-
-Performance improved from 94 to 99 after optimizing Google Fonts loading.
-
-The project combines interactive animations, responsive design, and optimized loading performance without relying on external animation libraries.
-
+- **Futuristic Visual Identity:** Dark backgrounds, turquoise accents, geometric elements, and a custom NOMA brand symbol.
+- **Responsive Design:** Layout adjustments for desktop and mobile screens.
+- **Interactive Feature Cards:** Three-dimensional hover effects with JavaScript-driven movement.
+- **Scroll Animations:** Sequential card reveals and animated manifesto typography using the Intersection Observer API.
+- **Mouse-Responsive Effects:** Interactive glow effects that respond to cursor movement.
+- **Mobile Navigation:** Responsive navigation menu with accessible controls.
+- **Sticky Header:** Persistent navigation while scrolling.
+- **Custom Branding:** Consistent logo treatment across the header, footer, and browser favicon.
+- **Performance Optimization:** Improved font loading and reduced render-blocking behavior.
 
 ## Technologies
 
-- HTML5 — Semantic structure and content.
-- CSS3 — Responsive layouts, animations, transitions, and 3D transforms.
-- JavaScript (ES6+) — DOM manipulation, event handling, and Intersection Observer API.
-- Git & GitHub — Version control and project hosting.
-- GitHub Pages — Static website deployment.
+| Technology | Purpose |
+|---|---|
+| HTML5 | Semantic page structure |
+| CSS3 | Layout, visual design, transitions, animations, and responsiveness |
+| JavaScript | DOM interactions, scroll effects, and interactive behavior |
+| Intersection Observer API | Scroll-triggered animations |
+| Google Fonts | Typography |
+| Git & GitHub | Version control and source code hosting |
+| GitHub Pages | Website deployment |
+| Chrome DevTools & Lighthouse | Performance, accessibility, and quality auditing |
+
+## CSS Skills Demonstrated
+
+NOMA Digital was developed to explore practical front-end styling techniques, including:
+
+- CSS Flexbox and Grid layouts
+- Custom properties (CSS variables)
+- Responsive design with media queries
+- CSS transforms and transitions
+- Keyframe animations
+- Layered backgrounds and visual effects
+- Interactive hover states
+- Typography and visual hierarchy
+- Component-based styling with reusable classes
+- Integration of CSS effects with JavaScript interactions
 
 ## Project Structure
 
 ```text
 noma-digital/
+├── assets/
+│   ├── noma-icon.png
+│   └── noma-preview.png
 ├── CSS/
 │   └── styles.css
 ├── JS/
 │   └── main.js
-└── index.html
+├── index.html
+└── README.md
 ```
 
-## Project Goals
+## Getting Started
 
-NOMA was developed as a front-end portfolio project to demonstrate practical skills in:
+**1. Clone the repository**
 
-- Building modern and responsive user interfaces.
-- Creating interactive experiences without external animation libraries.
-- Combining CSS animations with JavaScript interactions.
-- Organizing and deploying a static website using Git and GitHub.
+```bash
+git clone https://github.com/gracyehez/NOMA.git
+```
+
+**2. Open the project folder**
+
+```bash
+cd NOMA
+```
+
+**3. Run the website**
+
+Open `index.html` in a browser or use the Live Server extension in Visual Studio Code.
+
+No framework, build process, or package installation is required.
+
+## Design Concept
+
+**BEYOND THE ORDINARY**
+
+NOMA Digital is built around the idea that technology and creativity can work together to produce expressive digital experiences.
+
+The visual direction combines:
+
+- A dark, high-contrast interface
+- Turquoise highlights and luminous effects
+- Geometric shapes and futuristic compositions
+- Bold editorial typography
+- Motion as part of the user experience
+- A minimal and recognizable brand identity
+
+The project prioritizes visual experimentation while maintaining usability, responsiveness, and performance.
+
+## Development Highlights
+
+### Interactive Experience
+
+JavaScript enhances the interface through scroll-triggered animations, interactive cards, responsive navigation, and mouse-following effects.
+
+### Performance Optimization
+
+The website was refined through Lighthouse audits, including improvements to font loading, favicon configuration, and browser console diagnostics.
+
+### Accessibility
+
+The interface includes semantic HTML elements, descriptive navigation labels, and responsive controls. Automated accessibility auditing achieved a score of 100/100.
+
+### Deployment
+
+The project is hosted on GitHub Pages and maintained through Git version control.
+
+## Future Improvements
+
+Potential areas for further development include:
+
+- Additional interactive sections
+- Expanded keyboard interaction testing
+- Cross-browser and device testing
+- Further motion accessibility refinements
+- Additional portfolio case studies
 
 ## Author
 
 **Graciela Yehezkeli**
 
-[GitHub Profile](https://github.com/gracyehez)
+Front-End Development | HTML | CSS | JavaScript
+
+GitHub: [@gracyehez](https://github.com/gracyehez)
 
 ---
 
 *Designed and developed as a front-end portfolio project.*
+
+**NOMA Digital — Independent ideas. Infinite possibilities.**
