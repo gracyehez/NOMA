@@ -20,7 +20,7 @@ The published website was tested using Google Chrome Lighthouse.
 
 | Category | Score |
 |---|---:|
-| Performance | **98 / 100** |
+| Performance | **100 / 100** |
 | Accessibility | **100 / 100** |
 | Best Practices | **100 / 100** |
 | SEO | **100 / 100** |

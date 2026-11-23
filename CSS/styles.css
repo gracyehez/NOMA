@@ -1103,3 +1103,19 @@ button {
     );
   }
 }
+
+
+/* Corrige a proporção do logotipo NOMA */
+
+.logo-icon {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .logo-icon {
+    width: 48px;
+    height: 32px;
+  }
+}
